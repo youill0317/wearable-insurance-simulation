@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# IDE / notebook artifacts
+.vscode/
+.ipynb_checkpoints/
+.github/
+
+# Project data (raw/intermediate/model artifacts)
+data_*/
+models/
+bootstrap_samples_5000x30_1.csv
+bootstrap_id_opt_results.csv
+data_fullX30_1.csv
+percentile_1.csv
+
+# Working notes (exclude from GitHub project publishing)
+요약.md
+problem_1.md
+problems_2-3.md
+초코하임.md
+DB_model.ipynb
+
+# Keep publication docs tracked
+!README.md
+!초코하임.pdf
